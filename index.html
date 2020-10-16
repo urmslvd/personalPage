@@ -11,19 +11,21 @@
   <p>Just a girl in her 20's, trying to have interesting conversations and figure out whatever it means to be alive!</p>
   <p>You can browse through the the pictures below, and if you have anything intersting to add, email me at: <strong>shalakasridhar@gmail.com</strong></p>
 
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132048_776.jpg?width=1920&height=1080&fit=bounds" alt="1">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132139_928.jpg?width=1920&height=1080&fit=bounds" alt="2">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132154_687.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132231_546.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132318_012.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132348_735.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132411_720.jpg" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132424_793.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132434_272.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132437_221.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132505_146.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132524_858.jpg?width=1920&height=1080&fit=bounds" alt="">
-  <img src="https://hosting.photobucket.com/images/i/urmslvd/IMG_20201015_132608_010.jpg?width=1920&height=1080&fit=bounds" alt="">
+<div id="img">
+
+</div>
+
+<script type="text/javascript">
+  var i = 1;
+  var text  = '';
+  while (i <= 13) {
+    text = text + '<img src="images/'+ i + '.jpg">';
+    document.getElementById("img").innerHTML = text;
+    i++;
+}
+
+</script>
+
 
 </body>
 
